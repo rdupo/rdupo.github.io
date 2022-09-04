@@ -9045,7 +9045,7 @@ for(let i = 0; i < phunky.length; i++) {
 	var v3 = phunky[i].V3Phunks_OS;
 	var cp = phunky[i].CyberPhunks_OS;
 	var mydiv = `<div class="phunk-wrapper col-md-3 ib" id=${id}>
-					<img class="phunk-img" src=${img}>
+					<img class="phunk-img" loading="lazy" src=${img}>
 					<p class="phunk-id">Phunk ${id}</p>
 					<a href=${v1} target="_blank">View Philip</a>
 					<a href=${os} target="_blank">View V2 (OS)</a>
