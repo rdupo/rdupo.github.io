@@ -1,0 +1,75 @@
+body {
+	background-color: #fff;
+	font-family: "Ubuntu Mono", sans-serif;
+}
+
+body>*{
+	padding: 0 3em;		
+}
+
+p{
+	margin-top: 1em;
+}
+
+a{
+	display: block;
+}
+
+.mobile{
+	display: none;
+}
+
+.hero {
+	display: block;
+	font-family: "Silkscreen", sans-serif;
+	background-color: #648596;
+}
+
+.ib {
+	display: inline-block;
+}
+
+.hero-icon {
+	height: 85px;
+}
+
+.title {
+	vertical-align: middle;	
+	margin: 0;	
+}
+
+.search {
+	margin-bottom: 3em;
+}
+
+#phunky-list {
+	display: block;
+	text-align: center;
+}
+
+.phunk-wrapper {
+	background-color: #eaeaea;
+	margin: 0 2.5% 1.5em;
+	padding: 5px;
+	border: 5px solid #eaeaea;
+}
+
+.phunk-id {
+	margin: 0;
+	font-weight: 600;
+	font-size: 1.25em;
+	font-family: "Silkscreen", sans-serif;
+}
+
+.phunk-img{
+	margin: 0 0 15px 0;
+	max-width: 200px;
+}
+
+@media screen and (max-width: 565.9px) {
+	.desk {display: none;}
+	.mobile {
+		display: inline-block;
+		font-size: 1.75rem;
+	}
+}
