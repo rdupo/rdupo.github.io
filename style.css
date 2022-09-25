@@ -1,6 +1,7 @@
 body {
 	background-color: #fff;
 	font-family: "Ubuntu Mono", sans-serif;
+	overflow-x: hidden;
 }
 
 body>*{
@@ -11,7 +12,7 @@ p{
 	margin-top: 1em;
 }
 
-a{
+a, .wrapper{
 	display: block;
 }
 
@@ -42,6 +43,23 @@ a{
 	margin-bottom: 3em;
 }
 
+.nav {
+	background-color: #212529;
+    display: block;
+    padding: 0.25em 3em;
+    font-size: 1.25em;
+}
+
+.nav_el {
+	display: inline-block;
+	margin:  0 2em 0 0;
+	color: #fff;
+}
+
+.nav_el:hover {
+	color: #648596
+}
+
 #phunky-list {
 	display: block;
 	text-align: center;
@@ -61,9 +79,45 @@ a{
 	font-family: "Silkscreen", sans-serif;
 }
 
-.phunk-img{
+.phunk-img {
 	margin: 0 0 15px 0;
 	max-width: 200px;
+}
+
+.p-btn {
+	background: #648596;
+	border: none;
+	color: #fff;
+	padding: 2px 8px;
+}
+
+.mrgn {
+	margin: 24px 0 8px 0;
+}
+
+.inputs, .phunky-pfp {
+	vertical-align: top;
+}
+
+.ml1em {
+	margin-left: 1em;
+}
+
+#my-phunk {
+	position: absolute;
+	background: lightgray;
+	margin: 0 0 15px 0;
+	width: 350px;
+	z-index: 0;
+}
+
+#dl-phunk {
+	display: block;
+	position: absolute;
+	width: 350px;
+	height: 350px;
+	object-fit: contain;
+	z-index: 1;
 }
 
 @media screen and (max-width: 565.9px) {
