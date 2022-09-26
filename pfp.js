@@ -58,19 +58,19 @@ $('#v1,#v2,#v3,#cp').change(function() {
 function leadingZeros(input) {
 	if (!isNaN(input.value) && input.value.length == 1) {
 		var pid = '000' + input.value;
-		$('#my-phunk').attr('src', `https://notlarvalabs.com/static/phunk${pid}.svg`);
+		$('#my-phunk').attr('src', `phunk${pid}.svg`);
 	}
 	else if (!isNaN(input.value) && input.value.length == 2) {
 		var pid = '00' + input.value;
-		$('#my-phunk').attr('src', `https://notlarvalabs.com/static/phunk${pid}.svg`);
+		$('#my-phunk').attr('src', `phunk${pid}.svg`);
 	}
 	else if (!isNaN(input.value) && input.value.length == 3) {
 		var pid = '0' + input.value;
-		$('#my-phunk').attr('src', `https://notlarvalabs.com/static/phunk${pid}.svg`);
+		$('#my-phunk').attr('src', `phunk${pid}.svg`);
 	}
 	else if (!isNaN(input.value) && input.value.length == 4) {
 		var pid = input.value;
-		$('#my-phunk').attr('src', `https://notlarvalabs.com/static/phunk${pid}.svg`);
+		$('#my-phunk').attr('src', `phunk${pid}.svg`);
 	}
 	else {
 		$('#my-phunk').attr('src', 'philip.png');
