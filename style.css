@@ -16,6 +16,15 @@ a, .wrapper{
 	display: block;
 }
 
+.bullet {
+	width: 35px;
+}
+
+.lwrap>img, .lwrap>a {
+	display: inline-block;
+	margin: 10px 0;
+}
+
 .mobile{
 	display: none;
 }
@@ -33,6 +42,7 @@ a, .wrapper{
 .hero-icon {
 	height: 85px;
 }
+
 
 .title {
 	vertical-align: middle;	
@@ -122,6 +132,10 @@ a, .wrapper{
 	height: 350px;
 	object-fit: contain;
 	z-index: 0;
+}
+
+.lab {
+	margin-top: 24px;
 }
 
 @media screen and (max-width: 565.9px) {
