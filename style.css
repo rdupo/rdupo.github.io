@@ -5,7 +5,7 @@ body {
 }
 
 body>*{
-	padding: 0 3em;		
+	padding: 0 4em;	
 }
 
 p{
@@ -14,6 +14,13 @@ p{
 
 a, .wrapper{
 	display: block;
+}
+
+footer {
+	background-color: #212529;
+	color: #fff;
+	line-height: 3em;
+	margin: 7em 0 0 0;
 }
 
 .bullet {
@@ -41,6 +48,7 @@ a, .wrapper{
 
 .hero-icon {
 	height: 85px;
+	margin: 0 0 0 -1em;
 }
 
 
@@ -87,6 +95,11 @@ a, .wrapper{
 	font-weight: 600;
 	font-size: 1.25em;
 	font-family: "Silkscreen", sans-serif;
+}
+
+.tit {
+	font-size: 2em;
+	color: #648596;
 }
 
 .phunk-img {
@@ -136,6 +149,18 @@ a, .wrapper{
 
 .lab {
 	margin-top: 24px;
+}
+
+.ila {
+	display:contents;
+}
+
+.active {
+	color: #648596;
+}
+
+#content {
+	height: 100vh;
 }
 
 @media screen and (max-width: 565.9px) {
