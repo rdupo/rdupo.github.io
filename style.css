@@ -220,6 +220,12 @@ option {
 	color: #212529;
 }
 
+.warn {
+	color: red;
+	margin-top: 6px;
+	display: none;
+}
+
 #ws {
 	height: 2em;
 }
