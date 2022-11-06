@@ -20,7 +20,7 @@ footer {
 	background-color: #212529;
 	color: #fff;
 	line-height: 3em;
-	margin: 7em 0 0 0;
+	margin: 10em 0 0 0;
 }
 
 .bullet {
@@ -42,7 +42,7 @@ footer {
 	background-color: #648596;
 }
 
-.ib {
+.ib, .dropdown {
 	display: inline-block;
 }
 
@@ -58,7 +58,7 @@ footer {
 }
 
 .search {
-	margin-bottom: 3em;
+	margin-bottom: 1em;
 }
 
 .nav {
@@ -161,6 +161,71 @@ footer {
 
 #content {
 	height: 100vh;
+}
+
+.filters {
+	margin: 0 0 3em 0;
+}
+
+.select {
+	border-radius: 8px 0 0 8px;
+	width: 200px;
+	border-right: none;
+}
+
+.btn-outline-secondary {
+	padding: 0 0.25rem;
+    border-radius: 0 8px 8px 0;
+    border-left: none;
+}
+
+#id {
+	/*border-radius: 8px;*/
+}
+
+.input-group {
+	display: inline-flex;
+	width: auto;
+	padding: 0 1em;
+	margin: 0 0 10px 0;
+}
+
+.input-group-append, .select {
+	height: 28px;
+}
+
+.btn-outline-secondary:hover {
+	background-color: #648596;
+	border-color: #648596;
+}
+
+#view, #hide {
+	background-color: #648596;
+	border: solid 1px #648596;
+	color: white;
+	border-radius: 8px;
+	padding: 2px 6px;
+	margin: 0 0 0 1em;
+}
+
+#hide, #filters {
+	display: none;
+}
+
+select {
+	color: #648596;
+}
+
+option {
+	color: #212529;
+}
+
+#ws {
+	height: 2em;
+}
+
+.data-beardhide,.data-cheekshide,.data-earshide,.data-emohide,.data-eyeshide,.data-facehide,.data-hairhide,.data-lipshide,.data-mouthhide,.data-neckhide,.data-nosehide,.data-sexhide,.data-teethhide {
+	display: none;
 }
 
 @media screen and (max-width: 565.9px) {
